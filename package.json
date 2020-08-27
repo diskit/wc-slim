@@ -1,0 +1,17 @@
+{
+  "name": "wc-slim",
+  "version": "1.0.0",
+  "license": "MIT",
+  "dependencies": {
+    "slim-js": "^4.0.7"
+  },
+  "devDependencies": {
+    "parcel-bundler": "^1.12.4"
+  },
+  "scripts": {
+    "dev": "parcel index.html & parcel watch index.html",
+    "build": "parcel build index.html",
+    "clean": "rm -fr dist .cache"
+  }
+
+}
